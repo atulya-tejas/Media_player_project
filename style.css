@@ -24,6 +24,7 @@ body {
 }
 .header img{
   height: 40px;
+  border-radius: 50%;
 }
 .header form {
   border: 2px solid gold;
@@ -31,6 +32,7 @@ body {
   width:40%;
   height:80%;
   display: flex;
+  align-items: center;
 }
 .header form input {
   border: 2px dotted rgb(246, 166, 233,0.5);
@@ -42,17 +44,27 @@ body {
   color:aliceblue;
   font-size:1.5rem;
 }
+.header a img{
+  border: 2px solid blue;
+}
+
 
 .header form img{
   border: 2px solid red ;
   margin:0px 6px;
   height: 40px;
-  width:40px;
   border-radius:50%;
 }
 .left{
   border: 4px double red;
 }
+.scroll-box {
+  height: 200px;          /* REQUIRED */
+  overflow-y: auto;       /* enables vertical scrolling */
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
 .right{
   border: 4px double blue ;
 }
