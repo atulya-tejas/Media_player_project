@@ -57,12 +57,79 @@ body {
 }
 .left{
   border: 4px double red;
+
+}
+.library{
+   border: 4px double gold ;
+   border-radius:20px;
+   height: 15%;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.lib{
+  font-size: x-large;
+  font-weight: 600;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  color:aqua;
+  margin:5px 0px;
+}
+.mode{
+  height: 38px;
+  width: 100%;
+  /* border: 2px dotted greenyellow; */
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+}
+.mode button{
+  height: 100%;
+  width:30%;
+  border-radius: 50px;
+  border: 2px solid plum;
+  margin: 0px 2px;
+  background-color:rgb(46, 40, 60,0.8);
+  color : plum;
+  font-weight:600px;
+  font-size: x-large;
 }
 .scroll-box {
-  height: 200px;          /* REQUIRED */
-  overflow-y: auto;       /* enables vertical scrolling */
-  border: 1px solid #ccc;
+  height:534px;         
+  overflow-y:scroll;      
+  border: 4px double rgb(3, 178, 3);
+  border-radius: 20px;
   padding: 10px;
+  size
+  /* position:fixed; */
+}
+.musicElement{
+  font-size: 1.3rem;
+  border:2px groove white ;
+  border-radius: 20px;
+  margin-bottom: 5px;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 3fr 2fr;
+  height:13%;
+  gap:4px;
+  padding:5px 8px 5px 11px
+
+}
+.songName{
+   /* border:1px solid white; */
+   font-size: larger;
+}
+.artistName{
+   /* border:1px solid white; */
+   font-size: small;
+}
+.coverImg{
+  height:50px;
+  border:1px solid white;
+  grid-row: 1/6;
+  border-radius:8px;
+  margin-top: 1px;
 }
 
 .right{
