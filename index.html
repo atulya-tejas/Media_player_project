@@ -6,162 +6,25 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <img src="/Media_player_project/Imgs/Logo.png" alt="LOGO">
-        <form><img src="/Media_player_project/Imgs/search.png" alt="search"><input type="text" value=""></form> 
-        <a href="#"><img src="/Media_player_project/Imgs/AccountPFP.jpg" alt="AccountPFP"></a>
-    </div>
-    <div class="left">
-        <div class="library">
-            <p class="lib">Library</p>
-            <div class="mode">
-                <button>Song</button>
-                <button>Album</button>
-                <button>Artist</button>
+        <div class="container">
+            <audio id="mySong" src="./Src/BEliver.mp3">
+                <button id="play-pause-button">Play</button>
+
+            </audio>
+        </div>
+        <div class="container">
+            <div class="songInfo">
+                <img id="coverImg" src="./Src/AccountPFP.jpg" alt="Cover">
+                <span id="songName">Song name </span>
+                <span id="artistName"> artist name </span>
+            </div>    
+            <input id="progressBar" type="range" name="music" min="0" max="100" >
+            <div class="btns">
+                <button id="previousBtn"><</button>
+                <button id="playBtn">∆</button>
+                <button id="nextBtn">></button>
             </div>
         </div>
-
-        <div class="scroll-box">
-            <div class="musicElement">
-                <img class="coverImg" src="./Imgs/AccountPFP.jpg" alt="cover">
-                <p class="songName">Die for you</p>
-                <p class="artistName">Joji</p>
-            </div>
-            <div class="musicElement">
-                <img class="coverImg" src="./Imgs/AccountPFP.jpg" alt="cover">
-                <p class="songName">s </p>
-                <p class="artistName">Artist name</p>
-            </div>
-            <div class="musicElement">
-                <img class="coverImg" src="./Imgs/AccountPFP.jpg" alt="cover">
-                <p class="songName">song name </p>
-                <p class="artistName">Artist name</p>
-            </div>
-            <div class="musicElement">
-                <img class="coverImg" src="./Imgs/AccountPFP.jpg" alt="cover">
-                <p class="songName">Die for you</p>
-                <p class="artistName">Joji</p>
-            </div>
-            <div class="musicElement">
-                <img class="coverImg" src="./Imgs/AccountPFP.jpg" alt="cover">
-                <p class="songName">s </p>
-                <p class="artistName">Artist name</p>
-            </div>
-            <div class="musicElement">
-                <img class="coverImg" src="./Imgs/AccountPFP.jpg" alt="cover">
-                <p class="songName">song name </p>
-                <p class="artistName">Artist name</p>
-            </div>
-            <div class="musicElement">
-                <img class="coverImg" src="./Imgs/AccountPFP.jpg" alt="cover">
-                <p class="songName">Die for you</p>
-                <p class="artistName">Joji</p>
-            </div>
-            <div class="musicElement">
-                <img class="coverImg" src="./Imgs/AccountPFP.jpg" alt="cover">
-                <p class="songName">s </p>
-                <p class="artistName">Artist name</p>
-            </div>
-            <div class="musicElement">
-                <img class="coverImg" src="./Imgs/AccountPFP.jpg" alt="cover">
-                <p class="songName">song name </p>
-                <p class="artistName">Artist name</p>
-            </div>
-            <div class="musicElement">
-                <img class="coverImg" src="./Imgs/AccountPFP.jpg" alt="cover">
-                <p class="songName">Die for you</p>
-                <p class="artistName">Joji</p>
-            </div>
-            <div class="musicElement">
-                <img class="coverImg" src="./Imgs/AccountPFP.jpg" alt="cover">
-                <p class="songName">s </p>
-                <p class="artistName">Artist name</p>
-            </div>
-            <div class="musicElement">
-                <img class="coverImg" src="./Imgs/AccountPFP.jpg" alt="cover">
-                <p class="songName">song name </p>
-                <p class="artistName">Artist name</p>
-            </div>
-            <div class="musicElement">
-                <img class="coverImg" src="./Imgs/AccountPFP.jpg" alt="cover">
-                <p class="songName">Die for you</p>
-                <p class="artistName">Joji</p>
-            </div>
-            <div class="musicElement">
-                <img class="coverImg" src="./Imgs/AccountPFP.jpg" alt="cover">
-                <p class="songName">s </p>
-                <p class="artistName">Artist name</p>
-            </div>
-            <div class="musicElement">
-                <img class="coverImg" src="./Imgs/AccountPFP.jpg" alt="cover">
-                <p class="songName">song name </p>
-                <p class="artistName">Artist name</p>
-            </div>
-            <div class="musicElement">
-                <img class="coverImg" src="./Imgs/AccountPFP.jpg" alt="cover">
-                <p class="songName">Die for you</p>
-                <p class="artistName">Joji</p>
-            </div>
-            <div class="musicElement">
-                <img class="coverImg" src="./Imgs/AccountPFP.jpg" alt="cover">
-                <p class="songName">s </p>
-                <p class="artistName">Artist name</p>
-            </div>
-            <div class="musicElement">
-                <img class="coverImg" src="./Imgs/AccountPFP.jpg" alt="cover">
-                <p class="songName">song name </p>
-                <p class="artistName">Artist name</p>
-            </div>
-            <div class="musicElement">
-                <img class="coverImg" src="./Imgs/AccountPFP.jpg" alt="cover">
-                <p class="songName">Die for you</p>
-                <p class="artistName">Joji</p>
-            </div>
-            <div class="musicElement">
-                <img class="coverImg" src="./Imgs/AccountPFP.jpg" alt="cover">
-                <p class="songName">s </p>
-                <p class="artistName">Artist name</p>
-            </div>
-            <div class="musicElement">
-                <img class="coverImg" src="./Imgs/AccountPFP.jpg" alt="cover">
-                <p class="songName">song name </p>
-                <p class="artistName">Artist name</p>
-            </div>
-            <div class="musicElement">
-                <img class="coverImg" src="./Imgs/AccountPFP.jpg" alt="cover">
-                <p class="songName">Die for you</p>
-                <p class="artistName">Joji</p>
-            </div>
-            <div class="musicElement">
-                <img class="coverImg" src="./Imgs/AccountPFP.jpg" alt="cover">
-                <p class="songName">s </p>
-                <p class="artistName">Artist name</p>
-            </div>
-            <div class="musicElement">
-                <img class="coverImg" src="./Imgs/AccountPFP.jpg" alt="cover">
-                <p class="songName">song name </p>
-                <p class="artistName">Artist name</p>
-            </div>
-            <div class="musicElement">
-                <img class="coverImg" src="./Imgs/AccountPFP.jpg" alt="cover">
-                <p class="songName">Die for you</p>
-                <p class="artistName">Joji</p>
-            </div>
-            <div class="musicElement">
-                <img class="coverImg" src="./Imgs/AccountPFP.jpg" alt="cover">
-                <p class="songName">s </p>
-                <p class="artistName">Artist name</p>
-            </div>
-            <div class="musicElement">
-                <img class="coverImg" src="./Imgs/AccountPFP.jpg" alt="cover">
-                <p class="songName">song name </p>
-                <p class="artistName">Artist name</p>
-            </div>
-
-            
-        </div>
-    </div>
-    <div class="right">right</div>
-    <div class="footer">footer</div>
+<script src="script.js"></script>        
 </body>
 </html>
