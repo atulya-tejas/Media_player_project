@@ -1,7 +1,8 @@
-let play = document.getElementById("playBtn")
+let playbtn = document.getElementById("playBtn")
 let songName = document.getElementById("songName")
 let artistName = document.getElementById("artistName")
 let coverImg = document.getElementById("coverImg")
+let audio =document.getElementById("myAudio")
 
 
 let songs = {
@@ -12,16 +13,15 @@ let songs = {
 
 }
 
-play.addEventListener("click",function(){
-    if ( play.textContent === "="){
-        play.textContent = "∆"
+playbtn.addEventListener("click",function(){
+    if ( playbtn.textContent === "="){
+        playbtn.textContent = "∆"
+        audio.pause()
     }else{
-    play.textContent = "=" ;
-    
+    playbtn.textContent = "=" ;
+    audio.play()
+    }
     songName.textContent = songs.sName
     artistName.textContent = songs.aName
     coverImg.src = songs.cover
-
-    }
-
 })
