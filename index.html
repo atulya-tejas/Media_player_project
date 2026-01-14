@@ -6,22 +6,23 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <!-- <div class="container1">
-            <audio id="myAudio" src="./Src/BEliver.mp3"></audio>
-        </div> -->
+        <div id="container1"> </div>
         <div class="container">
             <div class="songInfo">
-                <img id="coverImg" src="./Src/AccountPFP.jpg" alt="Cover">
-                <span id="songName">Song name </span>
-                <span id="artistName"> artist name </span>
+                <img id="coverPlaying" src="./Src/AccountPFP.jpg" alt="Cover">
+                <span id="songPlaying">Song name</span>
+                <span id="artistPlaying"> artist name </span>
             </div>    
             <input id="progressBar" type="range" name="music" min="0" max="100" >
+              <audio id="myAudio" ></audio>`
             <div class="btns">
                 <button id="previousBtn"><</button>
-                <button id="playBtn">∆</button>
+                <button id="playBtn">▶</button>
                 <button id="nextBtn">></button>
             </div>
         </div>
+
+        <div><pre> ▶</pre></div>
 <script src="script.js"></script>        
 </body>
 </html>
